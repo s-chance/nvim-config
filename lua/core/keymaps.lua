@@ -25,3 +25,5 @@ keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
 -- 切换buffer
 keymap.set("n", "<C-L>", ":bnext<CR>")
 keymap.set("n", "<C-H>", ":bprevious<CR>")
+-- markdown-preview
+keymap.set("n", "<C-M>", ":MarkdownPreview<CR>")
